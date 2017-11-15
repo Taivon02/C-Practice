@@ -105,6 +105,7 @@ namespace CSProject
             if (HoursWorked > 160)
             {
                 Overtime = overtimeRate * (HoursWorked - 160);
+                TotalPay = BasicPay + Overtime;
                 
             }
         }
